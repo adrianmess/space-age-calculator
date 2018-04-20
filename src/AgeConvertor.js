@@ -6,11 +6,10 @@ class AgeConvertor {
     this.earthYearInSec = 31536000;
 
   }
-  twoDates (){
-    // let currentDate = new Date().toLocaleDateString();
-    let currentDate = new Date("4/20/2018");
-    let subDate = new Date("4/19/2018");
-    let timeDiff = Math.abs(currentDate.getTime() - subDate.getTime());
+  twoDates(){
+    let currentDate = new Date();
+    let userDate = new Date(this.inputDate);
+    let timeDiff = Math.abs(currentDate.getTime() - userDate.getTime());
     var diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24));
     return(diffDays);
   }
