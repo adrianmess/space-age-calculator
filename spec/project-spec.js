@@ -49,4 +49,20 @@ describe('AgeConvertor', function() {
     console.log(newAge.marsCalc())
     expect(newAge.marsCalc()).toEqual(14.4);
   });
+  it('Return age in Jupiter years ', function() {
+    let age = 27
+    let newAge = new AgeConvertor(age);
+
+    newAge.jupiterCalc()
+    console.log(newAge.jupiterCalc())
+    expect(newAge.jupiterCalc()).toEqual(2.3);
+  });
+  it('Return life expectancy left', function() {
+    let age = 70
+    let newAge = new AgeConvertor(age);
+
+    newAge.lifeLeftCalc()
+    console.log(newAge.lifeLeftCalc())
+    // expect(newAge.lifeLeftCalc()).toEqual(41);
+  });
 });
