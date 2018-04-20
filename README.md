@@ -16,7 +16,7 @@ A solar year lasts 365 days on planet Earth. However, the length of a solar year
 | Return the age of a human in Venus years. (A Venus year is .62 Earth years.) | 27 | 43.5
 | Return the age of a human in Mars years. (A Mars year is 1.88 Earth years.) | 27 | 14.4
 | Return the age of a human in Jupiter years. (A Jupiter year is 11.86 Earth years.) | 27 | 2.3
-| Determine how many years a user has left to live on each planet  | * | *
+| Determine how many years a user has left to live on each planet. Use average life expectancy of world  | 68 years | *
 | If a user has already surpassed the average life expectancy, return the number of years they have lived past the life expectancy. | * | *
 
 
