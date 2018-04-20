@@ -33,4 +33,12 @@ describe('AgeConvertor', function() {
     console.log(newAge.mercuryCalc())
     expect(newAge.mercuryCalc()).toEqual(112.5);
   });
+  it('Return age in Venus years ', function() {
+    let age = 27
+    let newAge = new AgeConvertor(age);
+
+    newAge.venusCalc()
+    console.log(newAge.venusCalc())
+    expect(newAge.venusCalc()).toEqual(43.5);
+  });
 });
