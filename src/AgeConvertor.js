@@ -26,6 +26,9 @@ class AgeConvertor {
   venusCalc() {
     return (this.age / this.venus).toFixed(1);
   }
+  marsCalc() {
+    return (this.age / this.mars).toFixed(1);
+  }
 }
 
 export { AgeConvertor };

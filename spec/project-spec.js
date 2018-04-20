@@ -41,4 +41,12 @@ describe('AgeConvertor', function() {
     console.log(newAge.venusCalc())
     expect(newAge.venusCalc()).toEqual(43.5);
   });
+  it('Return age in Mars years ', function() {
+    let age = 27
+    let newAge = new AgeConvertor(age);
+
+    newAge.marsCalc()
+    console.log(newAge.marsCalc())
+    expect(newAge.marsCalc()).toEqual(14.4);
+  });
 });
