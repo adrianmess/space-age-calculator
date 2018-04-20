@@ -5,6 +5,13 @@ describe('AgeConvertor', function() {
   beforeEach(function() {
 
   });
+  it('Determine the difference of two dates in seconds ', function() {
+    let date = new AgeConvertor();
+
+    date.twoDates();
+    console.log(date.twoDates());
+    // expect(newAge.ageSec()).toEqual(851472000);
+  });
   it('Return age in seconds ', function() {
     let age = 27
     let newAge = new AgeConvertor(age);
