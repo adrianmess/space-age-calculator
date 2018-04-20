@@ -1,7 +1,7 @@
 # **[Super Galactic Age Calculator]**
 
 #### By Adrian Messado
-[Adrian Messado](https://github.com/url)
+[Adrian Messado](https://github.com/adrianmess)
 ## Description
 
 A solar year lasts 365 days on planet Earth. However, the length of a solar year varies from planet to planet. For instance, a solar year on Mercury lasts 88 days. Write an application that determines a user’s age based on a planet’s solar years.
@@ -17,13 +17,15 @@ A solar year lasts 365 days on planet Earth. However, the length of a solar year
 | Return the age of a human in Mars years. (A Mars year is 1.88 Earth years.) | 27 | 14.4
 | Return the age of a human in Jupiter years. (A Jupiter year is 11.86 Earth years.) | 27 | 2.3
 | Determine how many years a user has left to live on each planet. Use average life expectancy of world  | 68 years | *
-| If a user has already surpassed the average life expectancy, return the number of years they have lived past the life expectancy. | * | *
+| If a user has already surpassed the average life expectancy, return the number of years they have lived past the life expectancy. | 70 years | 2 years
 
 
 ## Setup/Installation Requirements
 
 * To view project code, _clone repository from_
 * To view project, _open in web browser_
+  *  https://adrianmess.github.io/space-age-calculator/
+
 
 * To Install locally:
   * Clone this repository

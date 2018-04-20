@@ -1,4 +1,4 @@
-// import { function } from './class';
+// import { function } from './AgeConvertor';
 // import 'bootstrap';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 // import './styles.css';
