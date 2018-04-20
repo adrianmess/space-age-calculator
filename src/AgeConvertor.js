@@ -9,9 +9,10 @@ class AgeConvertor {
   twoDates(){
     let currentDate = new Date();
     let userDate = new Date(this.inputDate);
-    let timeDiff = Math.abs(currentDate.getTime() - userDate.getTime());
+    let timeDiff = Math.abs(currentDate.getDate() - userDate.getDate());
     var diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24));
-    return(diffDays);
+    var dayToSec = diffDays * 86400;
+    return(dayToSec);
   }
   ageSec(){
     return (this.age * this.earthYearInSec);
