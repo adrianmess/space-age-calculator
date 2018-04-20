@@ -7,10 +7,10 @@ describe('AgeConvertor', function() {
   });
   it('Determine the difference of two dates in seconds ', function() {
     let date = new AgeConvertor();
-
+    let verifyDate = new Date().toLocaleDateString();
     date.twoDates();
     console.log(date.twoDates());
-    // expect(newAge.ageSec()).toEqual(851472000);
+    expect(date.twoDates()).toEqual(verifyDate);
   });
   it('Return age in seconds ', function() {
     let age = 27
