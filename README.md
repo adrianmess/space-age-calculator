@@ -10,8 +10,8 @@ A solar year lasts 365 days on planet Earth. However, the length of a solar year
 
 | Specification | Input | Output |
 | --- | --- | --- |
-| Take a person’s age in years and convert it into seconds | 27 (years) | 852,037,704 (seconds)
-| Take two dates and determine the difference, in seconds, between the two. | 26 - 27 | 31,556,952 (seconds)
+| Take a person’s age in years and convert it into seconds | 27 (years) | 851472000 (seconds)
+| Take two dates and determine the difference, in seconds, between the two.  Application will compare input date against the current time to come up with an accurate age in seconds. | 01/01/1986 - 01/01/1987 | 31,556,952 (seconds)
 | Return the age of a human in Mercury years. (A Mercury year is .24 Earth years.) | 27 | 112.5
 | Return the age of a human in Venus years. (A Venus year is .62 Earth years.) | 27 | 43.54
 | Return the age of a human in Mars years. (A Mars year is 1.88 Earth years.) | 27 | 14.36
