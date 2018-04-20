@@ -22,16 +22,16 @@ class AgeConvertor {
     return (this.age * this.earthYearInSec);
   }
   mercuryCalc() {
-    return (this.age / this.mercury).toFixed(1);
+    return parseInt((this.age / this.mercury).toFixed(1));
   }
   venusCalc() {
-    return (this.age / this.venus).toFixed(1);
+    return parseInt((this.age / this.venus).toFixed(1));
   }
   marsCalc() {
-    return (this.age / this.mars).toFixed(1);
+    return parseInt((this.age / this.mars).toFixed(1));
   }
   jupiterCalc() {
-    return (this.age / this.jupiter).toFixed(1);
+    return parseInt((this.age / this.jupiter).toFixed(1));
   }
   lifeLeftCalc() {
     let lifeLeft = (Math.abs(this.lifeExpect - this.age));
